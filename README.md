@@ -2,4 +2,4 @@ Markdown & Git
 https://Kolenchitssi.github.io/rsschool-cv/cv
 
 HTML & CSS
-https://github.com/Kolenchitssi/rsschool-cv
+https://Kolenchitssi.github.io/Kolenchitssi/rsschool-cv/
