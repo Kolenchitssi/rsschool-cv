@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    background-color: #BAB5BF;   
+}
+
+
+a:link {
+    color: 	#135423;
+    text-decoration: none;    
+}
+
+a:visited {
+    color: #2E3F25;
+}
+
+a:active{
+    color: green;
+}
+
+a:hover {
+    color: #27764D;   
+    text-decoration:underline;
+}
+
+header{
+    text-align: right;
+    padding-right: 3vw;
+    min-height: 100px;
+    
+}
+
+header h1 span {    
+    color: #EDFFDD;
+    line-height: 25px;
+    text-shadow: black 1px 1px 3px;
+    animation-name: textMotion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes textMotion {
+    0% { color: #EDFFDD;
+    font-size: 1em;}
+    50% {color:#FCFFEC;
+        font-size: 1.5em;}
+    100%{ color: #EDFFDD;
+        font-size: 1em;}
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #bcbcac;
+    min-height: 100vh;
+    max-width: 50vw;
+    margin: auto;
+    border: 4px solid #FEECFF;
+    border-radius: 80px 0 0 0;
+}
+
+.section {
+    
+    border-bottom:4px solid #FEECFF;
+    background: #FBFFE5;
+    
+   
+}
+
+.resume {
+    flex: 1 1 auto;
+    
+}
+.title__wrap{
+    display: flex;
+    border-top:2px solid #FEECFF;
+    border-bottom:4px solid #FEECFF;
+    background: #EDFFDD;
+}
+
+.avatar {
+    flex: 0 0 150px;    
+    overflow: hidden;    
+    border-radius: 50% 0 0  50%;  
+    border-right: 4px double #FEECFF;  
+}
+
+.avatar img {
+    width:fit-content;
+    height: auto;
+}
+
+.gitIco {
+    width: 18px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.about { 
+    display: flex;   
+    flex: 1 1 auto;
+    padding: 0 0 0 50px;
+    align-items: center;
+}
+
+.about__wrap{
+    font-size: 1.1em;
+    /* display: flex;
+    flex-direction: column;    
+    align-items:flex-start; */
+}
+
+.text__wrap{
+   padding: 3vh 3vw;
+   text-align: justify;
+}
+
+.text__wrap p{    
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    text-align:justify;
+    
+}
+
+.mySection {
+    padding: 15px 0;
+    border-bottom: 2px double #FEECFF;
+    
+}
+
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contacts a:link {
+    color:black;    
+}
+.contacts a:visited {
+    color:black;    
+}
+
+.myGit{
+    display: flex;    
+    align-items: center
+}
+
+.gitContact{
+    padding-right: 10px;
+}
